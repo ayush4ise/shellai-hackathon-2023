@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: pkuma
+ * Creation Date: Aug 19, 2023 at 4:42:12 PM
+ *********************************************/
+SheetConnection
+forecast_data("D:\\Projects\\dataset\\forecasted.xlsx");
+forecast from SheetRead(forecast_data,"forecast_2018");
+
+SheetConnection
+distance_data("D:\\Projects\\dataset\\dist_matrix.xlsx");
+distance from SheetRead(distance_data,"dist_matrix");
