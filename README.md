@@ -5,4 +5,6 @@ Unfortunately I have been running into "Out of memory" errors for both ```gurobi
 
 Will try to attempt this later or seek help from other participants who were successful in tackling the complete problem.  
 
+## [NOTE- Update excel file path in .dat file for the CPLEX part]
+
 Python libraries to try out- ```ortools``` by Google
